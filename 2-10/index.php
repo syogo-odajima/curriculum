@@ -5,13 +5,12 @@ function getTriangleArea($base, $height) {
 }
 getTriangleArea(10,5);
 
-
 function a($base,$widit,$height) {
     $area = $base * $widit * $height;
     print "直方体の体積は".$area."です";
 }
  a(5,10,8); 
-echo "<br>";
+ echo "<br>";
  echo "<br>";
  echo "IT用語"."<br>";
  echo "・ハッシュ化"."<br>";
