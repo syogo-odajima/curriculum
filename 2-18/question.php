@@ -27,7 +27,7 @@ $answer3 = "select";
     <h2>①ネットワークのポート番号は何番？</h2>
     <!--③ 問題のradioボタンを「foreach」を使って作成する-->
     <?php foreach ($question1 as $value) { ?>
-        <input type ="radio" name = "response1" value = "<?php echo $value; ?>"> <?php echo $value;?>
+        <input type ="radio" name = "response1" value = '<?php echo $value; ?>'> <?php echo '120'; ?>
     <?php } ?>
     <h2>②Webページを作成するための言語は？</h2>
     <!--③ 問題のradioボタンを「foreach」を使って作成する-->
@@ -53,3 +53,5 @@ $answer3 = "select";
     
 </body>
 </html>
+<?php 
+echo a;
